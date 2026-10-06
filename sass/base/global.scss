@@ -1,0 +1,18 @@
+@use "../utilites/color.scss" as *;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+@use "../utilites/color.scss" as *;
+
+header {
+    background: $cor-secunadaria;
+    height: 45px;
+
+    nav {
+        height: 100%;
+        align-items: center;
+
+        .meu_nome{
+            display: flex;
+            align-items: center;
+            margin:0;
+
+            p{
+                margin: 0;
+                color: white;
+                font-weight: 200;
+                font-size: 20px;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 0;
+
+         li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+          }
+        }
+    }
+}
