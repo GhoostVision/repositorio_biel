@@ -1,0 +1,34 @@
+.tecnologias{
+    margin: 50px;
+    height: 250px;
+    .titulos-box{
+        margin-bottom:30px ;
+        h2{
+            font-size: 20px;
+            font-weight: 800;
+            margin: 10px 0;
+        }
+
+        h3{
+            font-weight: 200;
+            font-size: 35px;
+        }
+    }
+
+    .box-info{
+        .linguagens, .ferramentas, .frameworks{
+            border-left: 1px solid rgb(192, 192, 192);
+            margin-right:20px;
+            h3{
+                font-size: 20px;
+                font-weight: 800;
+                margin-bottom: 20px;
+            }
+
+            li{
+                margin: 5px 0;
+                font-weight: 300;
+            }
+        }
+    }
+}

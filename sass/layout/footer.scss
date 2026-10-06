@@ -1,0 +1,17 @@
+@use "../utilites/color.scss" as *;
+
+footer{
+    background:$cor-secunadaria;
+    height: 35px;
+    margin: 10px 0 0 0 ;
+
+    .box-footer{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        p{
+            color: white;
+            margin: 20px;
+        }
+    }
+}

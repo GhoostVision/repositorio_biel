@@ -22,6 +22,7 @@ main {
 header {
   background: rgb(14, 14, 14);
   height: 45px;
+  width: 100%;
 }
 header nav {
   height: 100%;
@@ -76,6 +77,10 @@ header nav ul li a {
   background: white;
   padding: 5px 20px;
 }
+.home img {
+  width: 100%;
+  height: 330px;
+}
 
 .card-projeto {
   flex-direction: column;
@@ -92,16 +97,16 @@ header nav ul li a {
 .card-projeto span {
   font-size: 15px;
   font-weight: 200;
-  margin: 5px;
+  margin: 10px;
 }
 .card-projeto h3 {
   font-size: 28px;
   font-weight: 800;
-  margin: 10px 5px;
+  margin: 10px 10px;
 }
 .card-projeto p {
   font-size: 14px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 .card-projeto .linguegens-card {
   margin: 10px 0;
@@ -110,16 +115,143 @@ header nav ul li a {
   border: 1px solid black;
   font-weight: 400;
   padding: 3px 8px;
-  margin: 0 1px 0 5px;
+  margin: 0 1px 0 10px;
   border-radius: 5px;
 }
 .card-projeto button {
   border: 1.5px solid black;
   background: white;
-  margin: 5px 5px;
+  margin: 5px 10px;
   padding: 3px 0;
-  width: 97%;
+  width: 95%;
   border-radius: 4px;
+}
+
+.box-card-tempo {
+  display: flex;
+  justify-content: center;
+}
+.box-card-tempo .card_tempo {
+  margin: 10px;
+  width: 50%;
+}
+.box-card-tempo .card_tempo span {
+  font-weight: 800;
+  font-size: 30px;
+}
+.box-card-tempo .card_tempo p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.projetos {
+  height: 550px;
+  margin: 50px 0;
+}
+.projetos .titulos-box {
+  margin-bottom: 30px;
+}
+.projetos .titulos-box h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.projetos .titulos-box h3 {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.tecnologias {
+  margin: 50px;
+  height: 250px;
+}
+.tecnologias .titulos-box {
+  margin-bottom: 30px;
+}
+.tecnologias .titulos-box h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.tecnologias .titulos-box h3 {
+  font-weight: 200;
+  font-size: 35px;
+}
+.tecnologias .box-info .linguagens, .tecnologias .box-info .ferramentas, .tecnologias .box-info .frameworks {
+  border-left: 1px solid rgb(192, 192, 192);
+  margin-right: 20px;
+}
+.tecnologias .box-info .linguagens h3, .tecnologias .box-info .ferramentas h3, .tecnologias .box-info .frameworks h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.tecnologias .box-info .linguagens li, .tecnologias .box-info .ferramentas li, .tecnologias .box-info .frameworks li {
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.sobre-mim .titulos-box {
+  margin-bottom: 30px;
+}
+.sobre-mim .titulos-box h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.sobre-mim .titulos-box h3 {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.contato {
+  margin: 50px;
+  height: 120px;
+}
+.contato .titulos-box {
+  margin-bottom: 20px;
+}
+.contato .titulos-box h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.contato .titulos-box h3 {
+  font-weight: 200;
+  font-size: 35px;
+}
+.contato .links-contato {
+  margin: 0;
+  border: 1px solid red;
+  height: 40px;
+}
+.contato .links-contato ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+.contato .links-contato ul li {
+  border: 1px solid red;
+}
+.contato .links-contato ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background: rgb(14, 14, 14);
+  height: 35px;
+  margin: 10px 0 0 0;
+}
+footer .box-footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+footer .box-footer p {
+  color: white;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
