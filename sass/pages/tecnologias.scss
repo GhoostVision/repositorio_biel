@@ -1,3 +1,5 @@
+@use "../utilites/color.scss" as *;
+
 .tecnologias{
     margin: 50px;
     height: 250px;
@@ -17,7 +19,7 @@
 
     .box-info{
         .linguagens, .ferramentas, .frameworks{
-            border-left: 1px solid rgb(192, 192, 192);
+            border-left: 1px solid $cor-prata;
             margin-right:20px;
             h3{
                 font-size: 20px;
