@@ -1,7 +1,7 @@
 @use "../utilites/color.scss" as *;
 
 .home{
-    height: 350px;
+    height: 400px;
     margin: 50px 0;
 
     span{
@@ -9,7 +9,7 @@
     }
 
     h1{
-        font-weight: 200;
+        font-weight: 100;
         span{
             font-weight: 800;
         }
@@ -25,6 +25,9 @@
         border: 2px solid black;
         background: $cor-principal;
         padding: 5px 20px;
+        i{
+            font-weight: 1000;
+        }
     }
 
     img{

@@ -1,6 +1,8 @@
+@use "../utilites/color.scss" as *;
+
 .contato{
     margin: 50px;
-    height: 120px;
+    height: 200px;
     .titulos-box{
         margin-bottom:20px ;
         h2{
@@ -25,9 +27,22 @@
              height: 100%;
 
             li{
+                border: 1px solid $cor-prata;
+                padding: 10px 10px;
+                border-radius: 10px;
                 a{
                     text-decoration: none;
                     color: black;
+                    font-weight: 600;
+                }
+
+            }
+            .contato-voltar-topo{
+                background: $cor-secunadaria;
+                color: $cor-texto;
+
+                a{
+                    color: $cor-texto;
                 }
             }
         }

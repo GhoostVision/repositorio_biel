@@ -61,14 +61,14 @@ header nav ul li a {
 }
 
 .home {
-  height: 350px;
+  height: 400px;
   margin: 50px 0;
 }
 .home span {
   font-weight: 200;
 }
 .home h1 {
-  font-weight: 200;
+  font-weight: 100;
 }
 .home h1 span {
   font-weight: 800;
@@ -82,6 +82,9 @@ header nav ul li a {
   border: 2px solid black;
   background: white;
   padding: 5px 20px;
+}
+.home button i {
+  font-weight: 1000;
 }
 .home img {
   width: 100%;
@@ -154,7 +157,7 @@ header nav ul li a {
 }
 
 .projetos {
-  height: 550px;
+  height: 600px;
   margin: 50px 0;
 }
 .projetos .titulos-box {
@@ -172,7 +175,7 @@ header nav ul li a {
 
 .tecnologias {
   margin: 50px;
-  height: 250px;
+  height: 300px;
 }
 .tecnologias .titulos-box {
   margin-bottom: 30px;
@@ -200,6 +203,9 @@ header nav ul li a {
   font-weight: 300;
 }
 
+.sobre-mim {
+  height: 400px;
+}
 .sobre-mim .titulos-box {
   margin-bottom: 30px;
 }
@@ -213,9 +219,21 @@ header nav ul li a {
   font-size: 35px;
 }
 
+.minha_foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minha_foto img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px black;
+}
+
 .contato {
   margin: 50px;
-  height: 120px;
+  height: 200px;
 }
 .contato .titulos-box {
   margin-bottom: 20px;
@@ -239,9 +257,22 @@ header nav ul li a {
   gap: 20px;
   height: 100%;
 }
+.contato .links-contato ul li {
+  border: 1px solid rgb(192, 192, 192);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
 .contato .links-contato ul li a {
   text-decoration: none;
   color: black;
+  font-weight: 600;
+}
+.contato .links-contato ul .contato-voltar-topo {
+  background: rgb(14, 14, 14);
+  color: white;
+}
+.contato .links-contato ul .contato-voltar-topo a {
+  color: white;
 }
 
 footer {
