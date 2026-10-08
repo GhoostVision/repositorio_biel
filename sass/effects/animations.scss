@@ -1,0 +1,82 @@
+@use "../utilites/color.scss" as*;
+
+//header
+header{
+    .links-nav{
+
+       li{
+        a{
+            transition: 0.7s;
+            display: inline-block;
+            &:hover{
+                transform: translateY(-5px);
+            }
+        }
+       }
+    }
+}
+
+
+//home efeito
+.home{
+    button{
+        transition: 0.5s;
+
+        &:hover{
+            transform: scale(1.03);
+            background:$cor-secunadaria;
+            color: $cor-texto;
+        }
+    }
+}
+
+//projetos card
+
+.card-projeto{
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.02);
+    }
+
+    button{
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(1.02);
+            color: $cor-texto;
+            background: $cor-secunadaria;
+        }
+    }
+}
+
+//card de ferramentas etc e card de tempo
+.linguagens, .ferramentas, .frameworks, .card_tempo{
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+//navegacao contato
+.caixa-links{
+    a{
+        transition: 0.5s;
+
+        &:hover{
+            transform: scale(1.05);
+            background: $cor-secunadaria;
+            color:$cor-texto !important;
+        }
+    }
+}
+
+.contato-voltar-topo{
+    transition: 0.5s;
+
+    &:hover{
+        color: black;
+        transform: scale(1.02);
+        background: $cor-principal;
+    }
+}
