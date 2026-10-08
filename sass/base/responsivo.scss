@@ -23,7 +23,7 @@
     }
 
     .tecnologias{
-        height: 700px;
+        height: 750px;
     }
     .box-info{
        flex-direction: column;
@@ -31,6 +31,31 @@
 
     .linguagens,.ferramentas,.frameworks{
         width: 100%;
+    }
+
+    .contato{
+        height: 300px;
+    }
+
+    .links-contato{
+        ul{
+            display: grid;
+            text-align: center;
+
+            .caixa-links{
+                li{
+                padding: 10px 0;
+                  }
+            }
+        }
+    }
+
+    footer{
+        .box-footer{
+            p{
+                font-size: 13px;
+            }
+        }
     }
 }
 

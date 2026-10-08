@@ -3,6 +3,7 @@
 .card-projeto{
     flex-direction: column;
     border: 1px solid black;
+    background: $cor-terciaria;
     padding-bottom: 10px;
     border-radius: 10px;
 
@@ -57,6 +58,7 @@
     .card_tempo{
        margin-right: 10px;
        width: 50%;
+       background: $cor-terciaria;
        border: 1px solid $cor-prata;
        border-radius: 10px;
        padding: 10px 30px;
