@@ -1,0 +1,45 @@
+//celular
+@media (max-width:575px){
+    nav{
+      .links-nav{
+        display: none;
+        }
+    }
+
+    .home_img{
+        display: none !important;
+    }
+
+    .projetos{
+        height: 1550px;
+    }
+
+    .minha_foto{
+        display: none;
+    }
+
+    .sobre-mim{
+        height: 470px;
+    }
+
+    .tecnologias{
+        height: 700px;
+    }
+    .box-info{
+       flex-direction: column;
+    }
+
+    .linguagens,.ferramentas,.frameworks{
+        width: 100%;
+    }
+}
+
+//tablet
+@media (min-width: 576px) and (max-width: 991px){
+
+}
+
+//desktop/pc
+@media (max-width:992px){
+    
+}

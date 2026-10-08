@@ -42,4 +42,13 @@ header {
           }
         }
     }
+
+    .mudar_cor{
+        button{
+            padding: 5px 10px;
+            background: $cor-principal;
+            border-radius: 50%;
+            border: none;
+        }
+    }
 }

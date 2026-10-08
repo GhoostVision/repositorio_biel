@@ -59,6 +59,12 @@ header nav ul li a {
   text-decoration: none;
   color: white;
 }
+header .mudar_cor button {
+  padding: 5px 10px;
+  background: white;
+  border-radius: 50%;
+  border: none;
+}
 
 .home {
   height: 400px;
@@ -94,7 +100,7 @@ header nav ul li a {
 .card-projeto {
   flex-direction: column;
   border: 1px solid black;
-  height: 440px;
+  padding-bottom: 10px;
   border-radius: 10px;
 }
 .card-projeto img {
@@ -190,8 +196,11 @@ header nav ul li a {
   font-size: 35px;
 }
 .tecnologias .box-info .linguagens, .tecnologias .box-info .ferramentas, .tecnologias .box-info .frameworks {
-  border-left: 1px solid rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   margin-right: 20px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: rgb(253, 253, 253);
 }
 .tecnologias .box-info .linguagens h3, .tecnologias .box-info .ferramentas h3, .tecnologias .box-info .frameworks h3 {
   font-size: 20px;
@@ -289,6 +298,33 @@ footer .box-footer {
 footer .box-footer p {
   color: white;
   margin: 20px;
+}
+
+@media (max-width: 575px) {
+  nav .links-nav {
+    display: none;
+  }
+  .home_img {
+    display: none !important;
+  }
+  .projetos {
+    height: 1550px;
+  }
+  .minha_foto {
+    display: none;
+  }
+  .sobre-mim {
+    height: 470px;
+  }
+  .tecnologias {
+    height: 700px;
+  }
+  .box-info {
+    flex-direction: column;
+  }
+  .linguagens, .ferramentas, .frameworks {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

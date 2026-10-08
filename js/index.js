@@ -1,6 +1,7 @@
-var agora = new Date();
-var horas = agora.getHours();
-var mostar_horario = document.getElementById(`horario`)
+//sistema de horarios
+var agora = new Date(); //pegar datas e horario atual
+var horas = agora.getHours(); //pegar horas
+var mostar_horario = document.getElementById(`horario`) //mostrar horas
 
 if (horas < 12){
     mostar_horario.innerText = `Bom dia, Visitante...`

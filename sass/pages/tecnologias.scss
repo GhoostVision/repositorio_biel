@@ -19,8 +19,11 @@
 
     .box-info{
         .linguagens, .ferramentas, .frameworks{
-            border-left: 1px solid $cor-prata;
+            border: 1px solid $cor-prata;
             margin-right:20px;
+            padding: 8px 20px;
+            border-radius: 20px;
+            background: $cor-terciaria;
             h3{
                 font-size: 20px;
                 font-weight: 800;
